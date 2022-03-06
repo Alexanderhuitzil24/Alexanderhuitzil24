@@ -8,41 +8,32 @@ int denominador = 1;
 
 //Constructor
 public Fraccion(int n, int b){
-		this.numerador = n;
-		this.denominador = d;
-	}
-
+this.numerador = n;
+this.denominador = d;
+}
 Fraccion dividir(int num, int denom){
-		int nuevoNumerador = this.numerador * num;
-		int nuevoDenominador = this.denominador * denom;
-
-   fraccionResultado = new Fraccion(nuevoNumerador, nuevoDenominador)
+  int nuevoNumerador = this.numerador * num;
+  int nuevoDenominador = this.denominador * denom;
+fraccionResultado = new Fraccion(nuevoNumerador, nuevoDenominador)
 
    return fraccionResultado;
 } //dividir
-
  public Fraccion multiplicar(int num, int denom){
-       int nuevoNumerador = this.numerador * num;
-       int nuevoDenominador = this.denominador * denom;
-
+    int nuevoNumerador = this.numerador * num;
+    int nuevoDenominador = this.denominador * denom;
    Fraccion fraccionResultado = new Fraccion(nuevoNumerador, nuevoDenominador);
 
    return fraccionResultado;
   } //multiplicar
 
-
 public Fraccion sumar(int num, int denom){
-
    int nuevoDenominador=denom;
    int nuevoNumerador=this.num+this.denom;
-   Fraccion fraccionResultado = new Fraccion(nuevoNumerador, nuevoDenominador);
-
+Fraccion fraccionResultado = new Fraccion(nuevoNumerador, nuevoDenominador);
   return fraccionResultado;
-
    } //sumar
 
 public Fraccion restar(int num, int denom){
-
    int nuevoDenominador=denom;
    int nuevoNumerador=this.num-this.denom;
    Fraccion fraccionResultado = new Fraccion(nuevoNumerador, nuevoDenominador);
